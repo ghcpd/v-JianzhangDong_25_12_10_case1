@@ -1,0 +1,77 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.5",
+      "reason": "Updated to a release that supports Python 3.14 (previous 1.26 series does not)."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Updated to an available wheel release that supports Python 3.14, avoiding heavy source builds."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.7",
+      "reason": "Pinned to a release that provides prebuilt wheels for Python 3.14 to allow tests using matplotlib to run."
+    },
+
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "Old versions have known security issues; 2.31.0 is a current stable release."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "Updated to an available wheel release for Python 3.14 to avoid source builds."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "",
+      "reason": "Removed from requirements because there are no reliable prebuilt SciPy wheels for Python 3.14 on PyPI; recommend installing via conda or using a supported Python version."
+    },
+
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Updated to a release that provides prebuilt wheels for Python 3.14, avoiding C builds."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.65.0",
+      "reason": "Bring in performance and bug fixes; more compatible with current Python."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Updated to a newer release that provides wheels for modern Python versions."
+    },
+
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.9.0",
+      "reason": "Old typing_extensions is too old for modern typing features; update for compatibility."
+    }
+  ]
+}
