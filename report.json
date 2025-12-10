@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.5",
+      "reason": "Updated to a numpy release that supports Python 3.14 and is compatible with other scientific libs."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Pinned to a pandas release compatible with numpy 2.3.x and Python 3.14."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.7",
+      "reason": "Matplotlib 3.10.x supports modern Python and fixes various issues in older versions."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.32.5",
+      "reason": "Updated to latest 2.x requests release that includes security fixes and Python compatibility."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "Pin to a secure PyYAML 6.x release that resolves prior issues."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.16.3",
+      "reason": "Scipy 1.16.x supports recent numpy versions and Python 3.14."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Use a modern regex release with the latest fixes and Python support."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.67.1",
+      "reason": "Updated to a recent stable tqdm with bugfixes."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Pinned to a recent lxml release that supports modern Python."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.15.0",
+      "reason": "Updated typing_extensions to support the newest typing features on Python 3.14."
+    }
+  ]
+}
