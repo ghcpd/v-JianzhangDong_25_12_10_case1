@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.4",
+      "reason": "Changed to numpy 2.3.4 which provides prebuilt wheels for Python 3.14 on Windows and is compatible with SciPy 1.16.x."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Updated to pandas 2.3.3 which provides wheels for Python 3.14 and includes important fixes and features."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.7",
+      "reason": "Updated to matplotlib 3.10.7 which provides wheels for Python 3.14 and recent bug fixes."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "2.25.0 contains known security vulnerabilities fixed in later releases."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "Updated to PyYAML 6.0.3 which has prebuilt wheels for Python 3.14 and includes recent fixes."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.16.3",
+      "reason": "Updated to SciPy 1.16.3 which provides wheels for Python 3.14 and is compatible with numpy 2.3.x."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Updated to a modern regex release with prebuilt wheels for Python 3.14 to avoid unneeded compilation."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.66.1",
+      "reason": "Older tqdm misses fixes and features; update to a current stable release."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Updated to lxml 6.0.2 which provides prebuilt wheels for Python 3.14 and security fixes."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.8.0",
+      "reason": "Old typing_extensions not compatible with modern typing features; use a current backport release."
+    }
+  ]
+}
