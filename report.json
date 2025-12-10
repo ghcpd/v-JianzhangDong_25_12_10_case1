@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "1.26.4",
+      "reason": "Updated to latest stable version compatible with Python 3.14, improving performance and security."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.2.0",
+      "reason": "Old version lacks support for Python 3.14. Updated to latest stable version with improved functionality."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.8.4",
+      "reason": "Updated to stable version with better Python 3.14 compatibility and performance improvements."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "Older version (2.25.0) contains known security vulnerabilities (CVE-2023-32681). Updated to latest stable version."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.1",
+      "reason": "Older version contains security vulnerabilities including arbitrary code execution. Updated to latest stable version."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.13.1",
+      "reason": "Updated to latest stable version with Python 3.14 support and improved performance."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2024.4.28",
+      "reason": "Significantly outdated version. Updated to latest stable version with bug fixes and improvements."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.66.2",
+      "reason": "Very old version (from 2018). Updated to latest stable version with numerous improvements."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "5.0.0",
+      "reason": "Old version may have security issues. Updated to latest stable version (5.0.0 is major upgrade with improvements)."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.9.0",
+      "reason": "Very old version. Updated to latest stable version for better Python 3.14 compatibility."
+    }
+  ]
+}
